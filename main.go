@@ -1,27 +1,14 @@
 package go_base
 
 import (
-	"github.com/gin-contrib/static"
-	"github.com/gin-gonic/gin"
-	"github.com/go-redis/redis/v9"
-	"github.com/golang-jwt/jwt"
-	"github.com/gorilla/websocket"
-	"github.com/kiririx/krutils/strx"
-	uuid "github.com/satori/go.uuid"
-	"gorm.io/driver/mysql"
-	"gorm.io/driver/sqlite"
-	"gorm.io/gorm"
-)
-
-var (
-	_ = redis.Client{}
-	_ = mysql.Config{}
-	_ = gin.H{}
-	_ = gorm.Model{}
-	_ = websocket.Conn{}
-	_ = uuid.DomainOrg
-	_ = sqlite.DriverName
-	_ = strx.ToStr("")
-	_ = static.INDEX
-	_ = jwt.ErrECDSAVerification
+	_ "github.com/Shopify/sarama"
+	_ "github.com/gin-contrib/static"
+	_ "github.com/gin-gonic/gin"
+	_ "github.com/go-redis/redis/v9"
+	_ "github.com/golang-jwt/jwt"
+	_ "github.com/gorilla/websocket"
+	_ "github.com/kiririx/krutils/strx"
+	_ "github.com/satori/go.uuid"
+	_ "gorm.io/driver/mysql"
+	_ "gorm.io/driver/sqlite"
 )
